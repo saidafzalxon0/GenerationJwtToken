@@ -13,7 +13,6 @@ import java.util.Date;
 
 @Service
 public class JWTService {
-//    @Value("${spring.security.secret.key}")
     private String key = "443987493fiojfakl";
 
     @Autowired
